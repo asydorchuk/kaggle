@@ -15,11 +15,11 @@ https://www.kaggle.com/c/statoil-iceberg-classifier-challenge
 1. Train single NN (run multiple times to train a few NNs):
   * Locally:
     ```
-      ./local.sh
+      ./nn_local.sh
     ```
   * Google CloudML:
     ```
-      ./cloudml.sh $YOUR_GCS_BUCKET
+      ./nn_cloudml.sh $YOUR_GCS_BUCKET
     ```
 2. Generate features:
   ```
